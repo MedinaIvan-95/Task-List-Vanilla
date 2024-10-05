@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./taskJs.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <title>Task List</title>
+</head>
+<body>
+    <button class="switch-buttom">Modo Oscuro</button>
+    <div class="main-container">
+        <h1>Task List Vanilla</h1>
+        <form>
+            <label for="new-task">Tarea</label>
+            <input type="text" id="new-task" placeholder="Ingrese aquí su tarea ..." required/>
+            <button type="submit" class="add-task">Agregar</button>
+        </form>
+        <div class="task-container"></div>
+    </div>
+
+    <div class="modal-background modal-off">
+        <div class="modal-container">
+            <span class="close">❌</span>
+            <form action="" class="edit-form">
+                <label for="edit">Edite su Texto Aquí</label>
+                <input id="edit" type="text" required/>
+                <button class="edit-button" type="submit">Editar</button>
+            </form>
+        </div>
+    </div>
+    <script src="./taskJs.js"></script>
+</body>
+</html>

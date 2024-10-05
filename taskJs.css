@@ -1,0 +1,230 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins';
+    position: relative;
+}
+
+.switch-buttom {
+    margin:25px;
+    padding: 5px;
+    background-color: greenyellow;
+    border: solid 1px ;
+    border-radius: 5px;
+    width: 100px;
+    padding: 2px;
+    transform: scale(1);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.switch-buttom:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.dark-page-theme {
+    background-color: rgb(50, 50, 50);
+}
+
+.dark-list-theme {
+    position: relative;
+    margin: 50px auto;
+    padding: 50px;
+    width: 50%;
+    height: 250px;
+    background-color: rgb(66, 66, 66);
+    color: whitesmoke;
+    border-radius: 20px;
+    box-shadow: 4px 5px 5px 2px rgb(52, 52, 52);
+    overflow: auto;
+    z-index: 1;
+}
+
+.main-container {
+    position: relative;
+    margin: 50px auto;
+    padding: 50px;
+    width: 50%;
+    height: 250px;
+    background-color: rgb(243, 243, 243);
+    border-radius: 20px;
+    box-shadow: 4px 5px 5px 2px rgb(163, 163, 163);
+    overflow: auto;
+    z-index: 1;
+}
+
+.main-container::-webkit-scrollbar-thumb{
+    width: 2px;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    margin: 20px 0px 20px 0px;
+}
+
+label {
+    margin-right: 10px;
+}
+
+input {
+    margin-right: 10px;
+    padding-left: 5px;
+}
+
+.text {
+    color: rgb(37, 37, 37)
+}
+
+.add-task {
+    background-color: greenyellow;
+    border: solid 1px ;
+    border-radius: 5px;
+    width: 100px;
+    padding: 2px;
+    transform: scale(1);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.add-task:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.task {
+    position: relative;
+    display: flex;
+    margin: 20px 0px 20px 0px;
+    background-color: white;
+    width: 100%;
+    height: 25px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.check-incomplete {
+    width: 10px;
+    height: 10px;
+    margin: 7px 7px 0px 0px;
+    border-radius: 20px;
+    background-color: rgb(215, 213, 213);
+    cursor: pointer;
+}
+
+.check-complete {
+    width: 10px;
+    height: 10px;
+    margin: 7px 7px 0px 0px;
+    border-radius: 20px;
+    background-color:greenyellow;
+    cursor: pointer;
+}
+
+.edit-item {
+    position: absolute;
+    top:20%;
+    right: 110px;
+    width: 12px;
+    height: 12px;
+    color: rgb(147, 147, 147);
+    cursor: pointer;
+    transform: scale(1);
+    transition: 0.5s;
+}
+
+.edit-item:hover {
+    position: absolute;
+    top:20%;
+    right: 110px;
+    width: 12px;
+    height: 12px;
+    color: rgb(0, 85, 255);
+    font-weight: 500;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.delete-item {
+    position: absolute;
+    top:20%;
+    right: 50px;
+    width: 12px;
+    height: 12px;
+    color: rgb(147, 147, 147);
+    cursor: pointer;
+    transform: scale(1);
+    transition: 0.5s;
+}
+
+.delete-item:hover {
+    position: absolute;
+    top:20%;
+    right: 50px;
+    width: 12px;
+    height: 12px;
+    color: red;
+    font-weight: 500;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.modal-background {
+    position:absolute;
+    top:0px;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.50);
+    z-index: 2;
+}
+
+.modal-container {
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    border-radius: 20px;
+    top: calc(50% - 75px);
+    left: calc(50% - 150px);
+    text-align: center;
+    background-color:rgb(243, 243, 243);
+    z-index: 3;
+}
+ .close {
+    position: absolute;
+    top:10px;
+    right: 10px;
+    cursor: pointer;
+}
+.edit-form {
+    margin-top: 50px;
+}
+
+.edit-button {
+    background-color: greenyellow;
+    border: solid 1px ;
+    border-radius: 5px;
+    width: 50px;
+    padding: 2px;
+    transform: scale(1);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.edit-button:hover {
+    background-color: greenyellow;
+    border: solid 1px ;
+    border-radius: 5px;
+    width: 50px;
+    padding: 2px;
+    transform: scale(1.1);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.modal-off {
+    display: none;
+}
